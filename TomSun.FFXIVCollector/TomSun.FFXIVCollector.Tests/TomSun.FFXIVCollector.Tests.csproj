@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.3.0" />
+    <PackageReference Include="NUnit" Version="3.8.1" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.8.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TomSun.FFXIVCollector.Apis.Ladestone\TomSun.FFXIVCollector.Apis.Lodestone.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="TomSun.Common.SystemExtensionMethods">
+      <HintPath>..\external\WebAutomation\TomSun.Common.SystemExtensionMethods.dll</HintPath>
+    </Reference>
+    <Reference Include="TomSun.Portable.Factories">
+      <HintPath>..\external\WebAutomation\TomSun.Portable.Factories.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
