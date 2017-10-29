@@ -1,8 +1,6 @@
-﻿using System;
-using System.Linq;
+﻿using System.Linq;
 using System.Threading.Tasks;
 using NUnit.Framework;
-using TomSun.FFXIVCollector.Apis.Ladestone;
 using TomSun.FFXIVCollector.Apis.Lodestone;
 using TomSun.FFXIVCollector.Tests.Common;
 
@@ -13,11 +11,7 @@ namespace TomSun.FFXIVCollector.Tests
     {
         private LodestoneAutomation Automation => this.Get(() => new LodestoneAutomation());
 
-        [Test]
-        public void SimpleTest()
-        {
-
-        }
+     
         [Test]
         public async Task SearchCharacterTest()
         {

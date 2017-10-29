@@ -7,9 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TomSun.FFXIVCollector.App",
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{EEFAA2BB-02E4-4CF9-A710-BC3074497FC9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TomSun.FFXIVCollector.Apis.Lodestone", "TomSun.FFXIVCollector.Apis.Ladestone\TomSun.FFXIVCollector.Apis.Lodestone.csproj", "{A8361163-4D54-4493-B0E9-73C5940892D4}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TomSun.FFXIVCollector.Tests", "TomSun.FFXIVCollector.Tests\TomSun.FFXIVCollector.Tests.csproj", "{BB7DF664-81F9-4E42-8012-609415064E03}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TomSun.FFXIVCollector.Apis.Lodestone", "TomSun.FFXIVCollector.Apis.Lodestone\TomSun.FFXIVCollector.Apis.Lodestone.csproj", "{11E606CA-E577-4BA2-9908-14CD2AAAC7FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,14 +25,14 @@ Global
 		{EEFAA2BB-02E4-4CF9-A710-BC3074497FC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEFAA2BB-02E4-4CF9-A710-BC3074497FC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEFAA2BB-02E4-4CF9-A710-BC3074497FC9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A8361163-4D54-4493-B0E9-73C5940892D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A8361163-4D54-4493-B0E9-73C5940892D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A8361163-4D54-4493-B0E9-73C5940892D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A8361163-4D54-4493-B0E9-73C5940892D4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BB7DF664-81F9-4E42-8012-609415064E03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BB7DF664-81F9-4E42-8012-609415064E03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB7DF664-81F9-4E42-8012-609415064E03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB7DF664-81F9-4E42-8012-609415064E03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11E606CA-E577-4BA2-9908-14CD2AAAC7FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11E606CA-E577-4BA2-9908-14CD2AAAC7FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11E606CA-E577-4BA2-9908-14CD2AAAC7FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11E606CA-E577-4BA2-9908-14CD2AAAC7FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

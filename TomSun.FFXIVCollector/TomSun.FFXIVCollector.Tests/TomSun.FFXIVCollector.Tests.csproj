@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TomSun.FFXIVCollector.Apis.Ladestone\TomSun.FFXIVCollector.Apis.Lodestone.csproj" />
+     <ProjectReference Include="..\TomSun.FFXIVCollector.Apis.Lodestone\TomSun.FFXIVCollector.Apis.Lodestone.csproj" />
   </ItemGroup>
 
   <ItemGroup>

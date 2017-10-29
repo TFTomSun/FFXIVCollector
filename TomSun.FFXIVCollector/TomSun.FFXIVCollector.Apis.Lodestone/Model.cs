@@ -2,7 +2,7 @@
 using System.Runtime.CompilerServices;
 using TomSun.Portable.Factories;
 
-namespace TomSun.FFXIVCollector.Apis.Ladestone
+namespace TomSun.FFXIVCollector.Apis.Lodestone
 {
     public abstract class Model
     {

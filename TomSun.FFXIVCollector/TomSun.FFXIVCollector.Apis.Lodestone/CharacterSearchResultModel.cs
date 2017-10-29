@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Linq;
-using TomSun.FFXIVCollector.Apis.Ladestone;
 using TomSun.Portable.WebAutomation.Interfaces;
 
 namespace TomSun.FFXIVCollector.Apis.Lodestone
